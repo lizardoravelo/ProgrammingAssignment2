@@ -2,6 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
+## this function create a inverse matrix in the parent environment and check if everything is correct
 
 makeCacheMatrix <- function(x = matrix()) {
           inverse <- NULL
@@ -19,6 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+## this function check if the inverse exist in cache if not then its calculated and then stored.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
